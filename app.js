@@ -1,4 +1,5 @@
 const path = require('path');
+require("./data/dbconnection.js").open();
 
 const express = require("express");
 const routes= require("./routes");
